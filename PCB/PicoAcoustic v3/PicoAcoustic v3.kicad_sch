@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 97.536 26.67)
+		(at 70.612 38.1)
 		(size 45.212 16.764)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "15056145-1ef9-4f05-bd9d-7732ade4616f")
 		(property "Sheetname" "ESP32"
-			(at 97.536 25.9584 0)
+			(at 70.612 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 97.536 44.0186 0)
+			(at 70.612 55.4486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 147.828 25.4)
+		(at 133.096 45.974)
 		(size 47.498 17.272)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "3486273e-aa43-435e-813c-de229c21bcba")
 		(property "Sheetname" "STM32"
-			(at 147.828 24.6884 0)
+			(at 133.096 45.2624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 147.828 43.2566 0)
+			(at 133.096 63.8306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 82.804 48.006)
+		(at 67.31 87.63)
 		(size 23.876 25.146)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "55780947-acc3-43d2-b298-0714d0c702f1")
 		(property "Sheetname" "Power Line"
-			(at 82.804 47.2944 0)
+			(at 67.31 86.9184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "power_line.kicad_sch"
-			(at 82.804 73.7366 0)
+			(at 67.31 113.3606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +144,7 @@
 		)
 	)
 	(sheet
-		(at 134.366 53.086)
+		(at 106.934 91.694)
 		(size 33.02 21.336)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +160,7 @@
 		)
 		(uuid "9eabae91-5e24-4b9f-bd17-1f2b5c024df5")
 		(property "Sheetname" "Analog Line"
-			(at 134.366 52.3744 0)
+			(at 106.934 90.9824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "analog_line.kicad_sch"
-			(at 134.366 75.0066 0)
+			(at 106.934 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

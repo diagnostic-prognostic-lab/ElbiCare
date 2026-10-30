@@ -2015,6 +2015,136 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "CODEC_SDA"
+		(shape bidirectional)
+		(at 77.47 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "119337eb-c75f-4597-8814-029f26bad79c")
+	)
+	(hierarchical_label "CODEC_MCLK"
+		(shape output)
+		(at 77.47 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "13abf2ea-cb93-4acb-80af-2f01126963f9")
+	)
+	(hierarchical_label "3V3_CODEC_EN"
+		(shape output)
+		(at 77.47 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "23d7c993-25ea-4bdf-a805-bc3b2e63fcfd")
+	)
+	(hierarchical_label "CODEC_ASDOUT"
+		(shape input)
+		(at 77.47 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2740f477-dd34-4106-93dc-3c07bf17d6a5")
+	)
+	(hierarchical_label "HP_DETECT"
+		(shape input)
+		(at 77.47 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "28c5046b-079b-4de2-9ed9-dbed114df8a2")
+	)
+	(hierarchical_label "CODEC_SCLK"
+		(shape output)
+		(at 77.47 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2a4e0cc4-9d73-49fe-9252-e024ea3cdac2")
+	)
+	(hierarchical_label "CODEC_LRCK"
+		(shape output)
+		(at 77.47 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2cd3e969-d148-4cf2-87e5-7b8b0c66bcdd")
+	)
+	(hierarchical_label "CODEC_SCL"
+		(shape output)
+		(at 77.47 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "71dd4634-ae4c-40f7-bf85-8f36eb03c3de")
+	)
+	(hierarchical_label "CODEC_DSDIN"
+		(shape output)
+		(at 77.47 135.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8fcf3c86-69d2-4328-b019-9a03e28d683e")
+	)
+	(hierarchical_label "AUDIO_RELAY"
+		(shape output)
+		(at 77.47 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b9d5bd9f-7184-416b-9d93-fe4f700e6478")
+	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det_Hirose_DM3AT")
 		(at 177.8 70.866 0)
@@ -2124,7 +2254,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32L4:STM32L433RCTx")
-		(at 104.902 129.54 0)
+		(at 59.69 94.488 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2135,7 +2265,7 @@
 		(fields_autoplaced yes)
 		(uuid "f87870d0-2250-4dd0-a220-0ed41349bbd6")
 		(property "Reference" "U10"
-			(at 109.5853 177.8 0)
+			(at 64.3733 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2146,7 +2276,7 @@
 			)
 		)
 		(property "Value" "STM32L433RCTx"
-			(at 109.5853 180.34 0)
+			(at 64.3733 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2157,7 +2287,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 89.662 175.26 0)
+			(at 44.45 140.208 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2169,7 +2299,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l433rc.pdf"
-			(at 104.902 129.54 0)
+			(at 59.69 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2310,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 80 MHz, 1.71-3.6V, 52 GPIO, LQFP64"
-			(at 104.902 129.54 0)
+			(at 59.69 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
