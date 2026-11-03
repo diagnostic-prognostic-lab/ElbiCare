@@ -4274,6 +4274,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchT")
+		(at 137.414 88.392 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2adbcfec-a3de-459e-b8da-70c1f38391af")
+		(property "Reference" "J4"
+			(at 135.509 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3_SwitchT"
+			(at 135.509 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal"
+			(at 137.414 88.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.414 88.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(at 137.414 88.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "58aed253-7721-4b42-835a-15155f5167e5")
+		)
+		(pin "T"
+			(uuid "47f4e5b4-2676-4dae-adea-0dead90f4cc5")
+		)
+		(pin "R"
+			(uuid "678b7a03-ac53-43d2-89cc-934892bc3c57")
+		)
+		(pin "TN"
+			(uuid "d8fd28a1-370f-4cbc-9466-81a9b5396b8d")
+		)
+		(instances
+			(project "PicoAcoustic v3"
+				(path "/60b76ec6-1847-44d4-9a41-c45a1e4154b3/9eabae91-5e24-4b9f-bd17-1f2b5c024df5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 191.516 81.534 0)
 		(unit 1)
@@ -4509,10 +4595,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5db5750d-7054-424d-a086-0d89ea7dbef2")
+			(uuid "5db5750d-7054-424d-a086-0d89ea7dbef3")
 		)
 		(pin "1"
-			(uuid "0e405dc0-7f53-4d39-bdb2-cb53c89bf480")
+			(uuid "0e405dc0-7f53-4d39-bdb2-cb53c89bf481")
 		)
 		(instances
 			(project "PicoAcoustic v3"
@@ -5113,92 +5199,6 @@
 			(project "PicoAcoustic v3"
 				(path "/60b76ec6-1847-44d4-9a41-c45a1e4154b3/9eabae91-5e24-4b9f-bd17-1f2b5c024df5"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3_SwitchT")
-		(at 137.414 88.392 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb8cd7bc-2f7f-4202-ad75-a012cf60ce2a")
-		(property "Reference" "J5"
-			(at 135.509 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HOOYA PJ-320E"
-			(at 135.509 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal"
-			(at 137.414 88.392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.414 88.392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 137.414 88.392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "TN"
-			(uuid "b1708446-8448-4337-b401-e78db792d870")
-		)
-		(pin "T"
-			(uuid "10f7f831-fcea-4577-87dc-b8463b48465b")
-		)
-		(pin "R"
-			(uuid "f75bcb6c-58b0-4a09-ade2-3eb3e0a89f67")
-		)
-		(pin "S"
-			(uuid "dc89f937-c40f-4e8c-98a8-47db5e76285b")
-		)
-		(instances
-			(project "PicoAcoustic v3"
-				(path "/60b76ec6-1847-44d4-9a41-c45a1e4154b3/9eabae91-5e24-4b9f-bd17-1f2b5c024df5"
-					(reference "J5")
 					(unit 1)
 				)
 			)
