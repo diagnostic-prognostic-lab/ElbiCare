@@ -5928,6 +5928,54 @@
 			)
 		)
 	)
+	(global_label "VSYS"
+		(shape input)
+		(at 208.28 50.546 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a35907e-1136-443e-a66e-a12d52da867f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.6986 50.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 212.598 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dcf87ab-3f9c-4e95-a434-ef1c59942dcf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.0166 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VDDBUS1"
 		(shape output)
 		(at 79.248 38.1 90)
@@ -6168,6 +6216,30 @@
 			)
 		)
 	)
+	(global_label "VSYS"
+		(shape output)
+		(at 120.142 140.716 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aefa893e-3afc-43f0-8dbd-88960975f11f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.7234 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VDDCHRG"
 		(shape output)
 		(at 148.844 90.932 0)
@@ -6189,6 +6261,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 212.598 112.014 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de7fc360-eac2-4a87-9b06-37e6f4e180e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.0166 112.014 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6275,17 +6371,6 @@
 		)
 		(uuid "24d426c3-acea-422e-a961-35d18b97ba84")
 	)
-	(hierarchical_label "V_SYS"
-		(shape input)
-		(at 120.142 140.716 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "278ca623-241a-4c92-963d-c51c296dcf44")
-	)
 	(hierarchical_label "CHRG_BAT"
 		(shape output)
 		(at 156.464 55.626 180)
@@ -6297,17 +6382,6 @@
 			(justify right)
 		)
 		(uuid "61d5094d-0ae0-43b7-8c8f-1de98a24e03c")
-	)
-	(hierarchical_label "V_SYS"
-		(shape input)
-		(at 212.598 112.014 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d1a149c-38e5-4109-9cd7-5070c8ea24a7")
 	)
 	(hierarchical_label "3V3_STM"
 		(shape output)
@@ -6402,17 +6476,6 @@
 		)
 		(uuid "c53f0aa6-390d-45d1-b17b-5ea7195a7c6e")
 	)
-	(hierarchical_label "V_SYS"
-		(shape input)
-		(at 208.28 50.546 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0ecb0b6-dddf-4ace-9746-bf63b7e44e54")
-	)
 	(hierarchical_label "3V3_STM"
 		(shape output)
 		(at 250.698 81.28 0)
@@ -6424,17 +6487,6 @@
 			(justify left)
 		)
 		(uuid "ec868f6b-9073-4918-a4e6-79b253ca5bb6")
-	)
-	(hierarchical_label "V_SYS"
-		(shape input)
-		(at 212.598 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f80db7cc-e56c-4eb1-862a-c4586601ef0e")
 	)
 	(symbol
 		(lib_id "power:GND")

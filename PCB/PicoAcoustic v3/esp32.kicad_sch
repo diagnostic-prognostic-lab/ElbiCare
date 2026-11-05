@@ -6040,7 +6040,7 @@
 		(uuid "0a2c4c57-c576-453b-8e95-a7bdf0594761")
 	)
 	(hierarchical_label "STT_MISC"
-		(shape input)
+		(shape bidirectional)
 		(at 69.342 58.166 0)
 		(effects
 			(font
@@ -6647,7 +6647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 396.9512 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -7650,7 +7650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 409.1432 47.752 0)
 			(hide yes)
 			(show_name no)
@@ -7914,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Display:LCD_OLED_128X64_1.3_I2C"
 			(at 227.076 42.672 0)
 			(hide yes)
 			(show_name no)

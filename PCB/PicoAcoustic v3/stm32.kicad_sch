@@ -5732,7 +5732,7 @@
 		(uuid "929c7123-8679-470e-a253-efa280f725ca")
 	)
 	(hierarchical_label "STT_PAN"
-		(shape input)
+		(shape output)
 		(at 88.138 139.446 0)
 		(effects
 			(font
